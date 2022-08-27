@@ -1,0 +1,511 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+	font-family: 'Oswald', sans-serif;
+}
+.header{
+	position: absolute;
+	width: 100%;
+	z-index: 100;
+}
+.header li{
+	list-style: none;
+	margin: 15px 10px;
+}
+.header a{
+	text-decoration: none;
+	font-weight: 500;
+	color: rgba(255,255,255,1.00);
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.header .col-2{
+	margin-right: 125px;
+}
+.logo img{
+	width: 100%
+}
+.box:hover{
+	border-bottom: medium solid #00FF00;
+}
+.cta-1{
+	width: 120px;
+	height: 50px;
+	background: rgba(37,37,37,1.00);;
+	overflow:hidden;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cta-11{
+	color:rgba(255,255,255,1.00);
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 500;
+	position: absolute;
+}
+.cta-12{
+	width: 120px;
+	height: 50px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: medium solid rgba(255,255,255,1.00);
+	visibility: hidden;
+}
+.cta-1:hover .cta-12{ 
+	visibility: visible;
+}
+.sub-menu-1 li a{
+	font-weight: 300
+}
+.sub-menu-1 li a:hover{
+	color: #00FF00;
+	font-weight: 500;
+}
+.sub-menu-1{
+	position: absolute;
+	height: 0;
+	width: 102px;
+	background: rgba(37,37,37,1.00);
+	border-left: medium solid #00FF00;
+	border-top: medium solid #00FF00;
+	transition-duration: 0.3s;
+	overflow: hidden;
+	visibility: hidden;
+}
+.nav-1 li:hover .sub-menu-1{
+	visibility: visible;
+	height: 225px;
+}
+.sub-menu-2 li a{
+	font-weight: 300
+}
+.sub-menu-2 li a:hover{
+	color: #00FF00;
+	font-weight: 500;
+}
+.sub-menu-2{
+	position: absolute;
+	height: 0;
+	width: 140px;
+	background: rgba(37,37,37,1.00);
+	border-left: medium solid #00FF00;
+	border-top: medium solid #00FF00;
+	transition-duration: 0.3s;
+	overflow: hidden;
+	visibility: hidden;
+}
+.nav-1 li:hover .sub-menu-2{
+	visibility: visible;
+	height: 185px;
+}
+.icon{
+	margin-left: 5px;
+}
+
+/*header*/
+.section-1{
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.section-1 video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: relative;
+}
+.content-1{ 
+	position: absolute;
+	top: 500px;
+	z-index: 200;
+	color: rgba(255,255,255,1.00);
+	display: flex;
+	align-items: center;
+}
+.content-1 p{
+	padding: 10px 0px;
+}
+.cta-2{
+	width: 120px;
+	height: 50px;
+	overflow: hidden;
+	background: #00FF00;
+	border-radius: 5px; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cta-2 a{
+	text-decoration: none;
+	color: #00FF00;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.cta-21{
+	color: rgba(36,36,36,1.00);
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 500;
+	position: absolute;
+}
+.cta-22{
+	width: 120px;
+	height: 50px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0,0,0,1.00);
+	border: medium solid #00FF00;
+	visibility: hidden;
+}
+.cta-2:hover .cta-22{ 
+	visibility: visible;
+}
+.cta-2:hover .cta-21{
+	visibility: hidden;
+}
+/*section-1*/
+.section-2{
+	position: relative;
+	height: 1300px;
+}
+.gradient{
+	height: 200px;
+	width: 100%;
+	position: absolute;
+	z-index: 500;
+	top: -80px;
+	background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 17%, rgba(14,14,14,1) 45%, rgba(18,18,18,0.9304315476190477) 59%, rgba(28,28,28,0.8996192226890756) 71%, rgba(37,37,37,0.8463979341736695) 82%, rgba(37,37,37,0.7007396708683473) 89%, rgba(0,0,0,0) 100%);
+}
+.mission{
+	background: url("../img + vid/Untitled-3.png");
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.feature-m1{
+	display: flex;
+	padding-top: 400px;
+}
+.feature-m1 img{
+	width: 70%;
+}
+/*section-2*/
+.section-3{
+	background: rgba(37,37,37,1.00);
+	padding-top: 50px;
+	height: 750px;
+	position: relative;
+}
+.workouts h1{
+	color: rgba(255,255,255,1.00);
+	margin-bottom: 30px;
+	position: absolute;
+	z-index: 1000;
+	top: -10px;
+	left: 50%;
+	transform: translate(-50%,-50%)
+}
+.workouts a{
+	text-decoration: none;
+}
+.workouts .logo{
+	top: 180px;
+	left: 15px;
+	position: absolute;
+}
+.workouts .content{
+	margin: 30px 20px;
+	color: rgba(255,255,255,1.00);	
+}
+.gradient-2{
+	width: 100%;
+	height: 100%;
+	background: radial-gradient(circle, rgba(0,255,0,0.4) 0%, rgba(37,37,37,1) 40%);
+	position: absolute;
+	z-index: 100;
+	top: 280px;
+	left: 50%;
+	transform: translate(-50%,-50%)
+}
+.box-w1, .box-w2, .box-w3, .box-w4, .box-w5{
+	height: 400px;
+	width: 200px;
+	border-radius: 5px;
+	background: rgba(37,37,37,1.00);
+	overflow: hidden;
+	position: absolute;
+	z-index: 500;
+	box-shadow: 3px 3px 5px 2px rgba(100,100,100,1.00);
+}
+.section-3 .feature{
+	height: 200px;
+	border-radius: 5px;
+	overflow: hidden;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.section-3 .footer{
+	background: rgba(0,0,0,0.00);
+}
+.section-3 .footer div{
+	height: 1px;
+	width: 100%;
+	background: rgba(255,255,255,1.00);
+}
+.box-w1{
+	top: 120px;
+}
+.box-w1:hover{
+	box-shadow: 3px 3px 10px 5px rgba(100,100,100,1.00);
+	height: 400px;
+	transition-duration: 0.3s;
+	background: linear-gradient(180deg, rgba(23,23,23,1) 36%, rgba(50,50,50,1) 66%, rgba(116,116,116,1) 89%, rgba(214,214,214,1) 95%, rgba(241,241,241,1) 100%);
+}
+.w1{
+	background-image: url("../img + vid/q319-lesmills-fia-webassets_workout-bp.jpg");
+}
+.box-w2:hover{
+	box-shadow: 3px 3px 10px 5px rgba(100,100,100,1.00);
+	height: 400px;
+	transition-duration: 0.3s;
+	background: linear-gradient(180deg, rgba(23,23,23,1) 36%, rgba(50,50,50,1) 66%, rgba(116,116,116,1) 89%, rgba(214,214,214,1) 95%, rgba(241,241,241,1) 100%);
+}
+.w2{
+	background-image: url("../img + vid/rpm_600x600_thumbnail.png");
+}
+.box-w3{
+	top: 140px;
+}
+.box-w3:hover{
+	box-shadow: 3px 3px 10px 5px rgba(100,100,100,1.00);
+	height: 400px;
+	transition-duration: 0.3s;
+	background: linear-gradient(180deg, rgba(23,23,23,1) 36%, rgba(50,50,50,1) 66%, rgba(116,116,116,1) 89%, rgba(214,214,214,1) 95%, rgba(241,241,241,1) 100%);
+}
+.w3{
+	background-image: url("../img + vid/les-mills-core_600x600_thumbnails-opt-2.png");
+}
+.infor{
+	margin-bottom: 22px;
+}
+.box-w4:hover{
+	box-shadow: 3px 3px 10px 5px rgba(100,100,100,1.00);
+	height: 400px;
+	transition-duration: 0.3s;
+	background: linear-gradient(180deg, rgba(23,23,23,1) 36%, rgba(50,50,50,1) 66%, rgba(116,116,116,1) 89%, rgba(214,214,214,1) 95%, rgba(241,241,241,1) 100%);
+}
+.w4{
+	background-image: url("../img + vid/bodybalance_600x600_thumbnails.png");
+}
+.box-w5{
+	top: 120px;
+}
+.box-w5:hover{
+	box-shadow: 3px 3px 10px 5px rgba(100,100,100,1.00);
+	height: 400px;
+	transition-duration: 0.3s;
+	background: linear-gradient(180deg, rgba(23,23,23,1) 36%, rgba(50,50,50,1) 66%, rgba(116,116,116,1) 89%, rgba(214,214,214,1) 95%, rgba(241,241,241,1) 100%);
+}
+.w5{
+	background-image: url("../img + vid/600x600-6-7-bm_51-born-to-move-image-update.jpg");
+}
+/*section-3*/
+.section-5{
+	background: rgba(37,37,37,1.00);
+	padding-top: 50px;
+	height: 1000px;
+	position: relative; 
+}
+.section-5 h1{
+	color: rgba(255,255,255,1.00);
+	margin-bottom: 30px;
+	position: absolute;
+	z-index: 1000;
+	top: -10px;
+	left: 50%;
+	transform: translate(-50%,-50%)
+}
+.content-s1{
+	height: 200px;
+	background: rgba(110,58,59,1.00);
+}
+.feature-s1{
+	height: 100%;
+}
+.feature-s1 img{
+	width: 100%
+}
+.content-s2{
+	color: rgba(255,255,255,1.00);
+}
+.left{
+	padding-top: 20px;
+}
+.content-s2 h3{
+	text-shadow: 0 0 20px #FDE805, 0 0 30px #fcea22, 0 0 40px #faeb42, 0 0 75px #fbef68, 12px 24px 6px rgba(0,22,0,0);
+	padding-bottom: 8px;
+}
+.left h3{
+	text-shadow: 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 2px 2px 2px rgba(206,89,55,0);
+	padding-bottom: 8px;
+}
+.content-s2 p{
+	padding: 15px 0px;
+}
+.cta-4{
+	padding-bottom: 20px;
+}
+.cta-4 a{
+	color: rgba(255,255,255,1.00);
+	text-decoration: none;
+}
+.daudau{
+	width: 125px;
+	top: 0;
+	border-bottom: thin solid rgba(255,255,255,1.00);
+	opacity: 0;
+	transition-duration: 0.3s;
+}
+.cta-4 a:hover .daudau{
+	opacity: 1;
+}
+/*section-5*/
+.section-4{
+	background: rgba(37,37,37,1.00);
+	padding: 100px 0px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.section-4 h1{
+	color: rgba(255,255,255,1.00);
+	position: absolute;
+	z-index: 1000;
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%,-50%)
+}
+.box-q2{
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #FDE805
+}
+.section-4 p{
+	color: rgba(255,255,255,1.00);
+	font-weight: 300;
+}
+.q1{
+	width: 1250px;
+	height: 100px;
+	border-top: thin solid white;
+	overflow: hidden;
+}
+.q1:hover{
+	height: 150px;	
+}
+.q2{
+	width: 1250px;
+	height: 100px;
+	overflow: hidden;
+	border-bottom: thin solid white;
+	border-top: thin solid white;
+}
+.q2:hover{
+	height: 200px;	
+}
+.q3{
+	width: 1250px;
+	height: 100px;
+	overflow: hidden;
+	border-bottom: thin solid white;
+}
+.q3:hover{
+	height: 150px;	
+}
+.answer{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+/*section-4*/
+.footer{
+	width: 100%;
+	background: rgba(37,37,37,0.4);
+	padding: 40px 0px 20px 0px;
+}
+.logo-f img{
+	width: 60%;
+}
+.info a{
+	color: rgba(37,37,37,1);
+	font-weight: 300;
+	text-decoration: none;
+}
+.info li{
+	list-style: none;
+	font-weight: 300;
+}
+.info li:hover{
+	text-decoration: underline;
+}
+.icon-f a{
+	color: rgba(37,37,37,1.00);
+}
+.circle{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background: rgba(25,25,25,0.4);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.circle:hover{
+	box-shadow: 0px 0px 2px 2px white;
+}
+.insta{
+	margin: 0px 10px;
+}
+.youtube ion-icon{
+	height: 75%;
+	width: 75%;
+}
+.insta ion-icon{
+	height: 80%;
+	width: 80%
+}
+.facebook ion-icon{
+	height: 100%;
+	width: 100%;
+}
+.rights{
+	height: 100%;
+	border-top: thin solid rgba(37,37,37,1);
+}
+.rights p{
+	color: rgba(37,37,37,1);
+	font-weight: 300;
+}
+.rights a{
+	color: rgba(37,37,37,1);
+	font-weight: 300;
+	text-decoration: none;
+}
+.rights a:hover{
+	text-decoration: underline;
+}
+
+
